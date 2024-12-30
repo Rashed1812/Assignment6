@@ -1,4 +1,9 @@
-﻿namespace Assignment6
+﻿using System;
+using System.ComponentModel.Design;
+using System.Diagnostics.Metrics;
+using static System.Runtime.InteropServices.JavaScript.JSType;
+
+namespace Assignment6
 {
     internal class Program
     {
@@ -47,6 +52,24 @@
 
             #endregion
 
+            #region 2.Write a program in C# Sharp to create a function to calculate the sum of the individual digits of a given number.Output should be like Enter a number: 25 The sum of the digits of the number 25 is: 7
+            //Console.Write("Enter Number To Know Sum Of Individual Digits: ");
+            //int.TryParse(Console.ReadLine(), out int digits);
+
+            //if (digits < 0) { Console.WriteLine("Invalid input , Enter Positive Number"); }
+            //else { IndividualDigits(digits); }
+            
+            //static void IndividualDigits (int num) 
+            //{
+            //    int sum = 0;
+            //    while (num > 0)
+            //    {
+            //        sum += num % 10;
+            //        num /= 10;
+            //    }
+            //    Console.WriteLine($"The sum of the digits of the number {num} is: {sum}");
+            //}
+            #endregion
         }
     }
 }
