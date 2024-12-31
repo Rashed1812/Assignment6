@@ -73,29 +73,54 @@ namespace Assignment6
 
             #region 3.reate a function named "IsPrime", which receives an integer number and retuns true if it is prime, or false if it is not:
 
-            //    Console.Write("Enter Number To Know If This Number Is Prime: ");
-            //    int.TryParse(Console.ReadLine(), out int Num);
+            //Console.Write("Enter Number To Know If This Number Is Prime: ");
+            //int.TryParse(Console.ReadLine(), out int Num);
 
-            //    if (Num < 0) { Console.WriteLine("Invalid input , Enter Positive Number"); }
+            //if (Num < 0) { Console.WriteLine("Invalid input , Enter Positive Number"); }
 
-            //    else
-            //    { 
-            //       bool result = IsPrime(Num);
-            //       Console.WriteLine(result); 
-            //    }
-
-            //    static bool IsPrime(int PrimeNum)
-            //    {
-            //        for (int i = 2; i < PrimeNum; i++)
-            //        {
-            //            if (PrimeNum % i == 0)
-            //            {
-            //                return false;
-            //            }
-            //        }
-            //        return true;
-            //    }
+            //else
+            //{
+            //    bool result = IsPrime(Num);
+            //    Console.WriteLine(result);
             //}
+
+            //static bool IsPrime(int PrimeNum)
+            //{
+            //    for (int i = 2; i < PrimeNum; i++)
+            //    {
+            //        if (PrimeNum % i == 0)
+            //        {
+            //            return false;
+            //        }
+            //    }
+            //    return true;
+            //}
+            //IsPrime(Num);
+
+
+            #endregion
+
+            #region 4.Create a function named MinMaxArray, to return the minimum and maximum values stored in an array, using reference parameters
+
+            //Console.Write("Enter Number of Elements You Want To Get Max And Min: ");
+            //int.TryParse(Console.ReadLine(), out int elements);
+
+            //int[] nums = new int[elements];
+            //int min = 0;
+            //int max = 0;
+            //Console.WriteLine("Enter The Numbers Of Array: ");
+            //for (int i = 0; i < nums.Length; i++)
+            //{
+            //    nums[i] = Convert.ToInt32(Console.ReadLine());
+            //}
+            //static void MinMaxArray(int[] nums , ref int min , ref int max)
+            //{
+            //    min = nums.Min();
+            //    max = nums.Max();
+            //    Console.WriteLine($"Min Number In Array Is: {min}");
+            //    Console.WriteLine($"Max Number In Array Is: {max}");
+            //}
+            //MinMaxArray(nums ,ref min ,ref max);
 
             #endregion
         }
