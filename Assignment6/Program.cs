@@ -123,6 +123,26 @@ namespace Assignment6
             //MinMaxArray(nums ,ref min ,ref max);
 
             #endregion
+
+            #region 5.Create an iterative (non-recursive) function to calculate the factorial of the number specified as parameter
+
+            //Console.Write("Enter Number To Get Factorial: ");
+            //int.TryParse(Console.ReadLine(), out int num);
+            
+            //if (num < 0) { Console.WriteLine("Invalid input , Enter Positive Number"); }
+            //else { GetFactorial(num); }
+
+            //static void GetFactorial(Int64 FactorialNum) 
+            //{
+            //    int result = 1;
+            //    for (int i = 1; i <= FactorialNum; i++)
+            //    {
+            //        result *= i;
+            //    }
+            //    Console.WriteLine($"The Factorial of {FactorialNum} is {result}");
+            //}
+
+            #endregion
         }
     }
 }
