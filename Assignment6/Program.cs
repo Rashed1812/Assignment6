@@ -8,6 +8,21 @@ namespace Assignment6
 {
     internal class Program
     {
+        //part 2
+        #region 1.Create an enum called "WeekDays" with the days of the week (Monday to Sunday) as its members. Then, write a C# program that prints out all the days of the week using this enum.
+        enum WeekDays
+        {
+            Monday,
+            Tuesday,
+            Wednesday,
+            Thursday,
+            Friday,
+            Saturday,
+            Sunday
+        }
+
+
+        #endregion
         static void Main(string[] args)
         {
             #region 1.Explain the difference between passing (Value type parameters) by value and by reference then write a suitable c# example
@@ -239,6 +254,15 @@ namespace Assignment6
             //}
 
             #endregion
+
+            ////part 2 Q1
+            //for (int i = 0; i < 7; i++)
+            //{
+            //    WeekDays day = (WeekDays)i;
+            //    Console.WriteLine(day);
+            //}
+
+
         }
 
     }
