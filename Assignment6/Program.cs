@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel.Design;
 using System.Diagnostics.Metrics;
 using static System.Runtime.InteropServices.JavaScript.JSType;
@@ -145,7 +146,7 @@ namespace Assignment6
             #endregion
 
             #region 6.Explain the difference between passing (Reference type parameters) by value and by reference then write a suitable c# example
-            
+
             ////passing by value
             //static int SumNumbersArray(int[] nums) 
             //{
@@ -177,6 +178,27 @@ namespace Assignment6
             //int total = SumNumbersArray(ref numbers);
             //Console.WriteLine(numbers[0]);
             //Console.WriteLine(total);
+
+            #endregion
+
+            #region 7.Write a c# Function that accept 4 parameters from user and return result of summation and subtracting of two numbers
+
+            //Console.Write("Enter First Number To Get Result Of Summation And Subtracting: ");
+            //int.TryParse(Console.ReadLine(), out int num1);
+
+            //Console.Write("Enter Second Number To Get Result Of Summation And Subtracting: ");
+            //int.TryParse(Console.ReadLine(), out int num2);
+
+            //static (int sum, int sub)  SummationAndSubtracting (int first, int second) 
+            //{
+            //    int sum = first + second;
+            //    int sub = first - second;
+            //    return (sum, sub);
+            //}
+            //var (sum, sub) = SummationAndSubtracting(num1, num2);
+
+            //Console.WriteLine($"The Summation Of Numbers {num1} + {num2} = {sum}");
+            //Console.WriteLine($"The Subtracting Of Numbers {num1} - {num2} = {sub}");
 
             #endregion
         }
