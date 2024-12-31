@@ -201,6 +201,45 @@ namespace Assignment6
             //Console.WriteLine($"The Subtracting Of Numbers {num1} - {num2} = {sub}");
 
             #endregion
+
+            #region 8.Create a function named "ChangeChar" to modify a letter in a certain position (0 based) of a string, replacing it with a different letter
+
+            //static string ChangeChar(string input, int position, char newChar)
+            //{
+            //    if (position < 0 || position >= input.Length)
+            //    {
+            //        Console.WriteLine("Error Position ");
+            //    }
+            //    char[] charArray = input.ToCharArray();
+            //    charArray[position] = newChar;
+            //    return new string(charArray);
+            //}
+
+            //Console.Write("Enter a string: ");
+            //string input = Console.ReadLine();
+
+            //Console.Write("Enter the position of the character to modify (0-based): ");
+            //if (!int.TryParse(Console.ReadLine(), out int position))
+            //{
+            //    Console.WriteLine("Error: Invalid position input.");
+            //}
+
+            //Console.Write("Enter the new character: ");
+            //char newChar = Console.ReadKey().KeyChar;
+
+            //string result = ChangeChar(input, position, newChar);
+
+            //if (result.StartsWith("Error"))
+            //{
+            //    Console.WriteLine(result);
+            //}
+            //else
+            //{
+            //    Console.WriteLine($"Modified string: {result}");
+            //}
+
+            #endregion
         }
+
     }
 }
