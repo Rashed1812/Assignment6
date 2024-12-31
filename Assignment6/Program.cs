@@ -128,7 +128,7 @@ namespace Assignment6
 
             //Console.Write("Enter Number To Get Factorial: ");
             //int.TryParse(Console.ReadLine(), out int num);
-            
+
             //if (num < 0) { Console.WriteLine("Invalid input , Enter Positive Number"); }
             //else { GetFactorial(num); }
 
@@ -141,6 +141,42 @@ namespace Assignment6
             //    }
             //    Console.WriteLine($"The Factorial of {FactorialNum} is {result}");
             //}
+
+            #endregion
+
+            #region 6.Explain the difference between passing (Reference type parameters) by value and by reference then write a suitable c# example
+            
+            ////passing by value
+            //static int SumNumbersArray(int[] nums) 
+            //{
+            //    nums[0] = 100;
+            //    int sum = 0;
+            //    for (int i = 0; i < nums.Length; i++) 
+            //    {
+            //        sum += nums[i];
+            //    }
+            //    return sum;
+            //}
+            //int[] numbers = {1,2,3,4,5,6,7};
+            //int total = SumNumbersArray(numbers);
+            //Console.WriteLine(numbers[0]);
+            //Console.WriteLine(total);
+
+            ////passing by ref
+            //static int SumNumbersArray(ref int[] nums)
+            //{
+            //    nums[0] = 100;
+            //    int sum = 0;
+            //    for (int i = 0; i < nums.Length; i++)
+            //    {
+            //        sum += nums[i];
+            //    }
+            //    return sum;
+            //}
+            //int[] numbers = { 1, 2, 3, 4, 5, 6, 7 };
+            //int total = SumNumbersArray(ref numbers);
+            //Console.WriteLine(numbers[0]);
+            //Console.WriteLine(total);
 
             #endregion
         }
