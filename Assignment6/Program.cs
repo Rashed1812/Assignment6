@@ -34,6 +34,16 @@ namespace Assignment6
         //}
 
         #endregion
+
+        #region 5.Create an enum called "Colors" with the basic colors (Red, Green, Blue) as its members. Write a C# program that takes a color name as input from the user and displays a message indicating whether the input color is a primary color or not.
+        enum Colors
+        {
+            Red,
+            Green,
+            Blue
+        }
+
+        #endregion
         static void Main(string[] args)
         {
             #region 1.Explain the difference between passing (Value type parameters) by value and by reference then write a suitable c# example
@@ -230,39 +240,23 @@ namespace Assignment6
 
             #region 8.Create a function named "ChangeChar" to modify a letter in a certain position (0 based) of a string, replacing it with a different letter
 
-            //static string ChangeChar(string input, int position, char newChar)
+            //static string ChangeChar(string text, int index, char ch)
             //{
-            //    if (position < 0 || position >= input.Length)
-            //    {
-            //        Console.WriteLine("Error Position ");
-            //    }
-            //    char[] charArray = input.ToCharArray();
-            //    charArray[position] = newChar;
-            //    return new string(charArray);
+            //    text = text.Remove(index, 1);
+            //    text = text.Insert(index, ch.ToString());
+            //    return text;
             //}
 
-            //Console.Write("Enter a string: ");
-            //string input = Console.ReadLine();
+            //Console.WriteLine("Enter text");
+            //string text= Console.ReadLine();
 
-            //Console.Write("Enter the position of the character to modify (0-based): ");
-            //if (!int.TryParse(Console.ReadLine(), out int position))
-            //{
-            //    Console.WriteLine("Error: Invalid position input.");
-            //}
+            //Console.WriteLine("Enter index");
+            //int index =int.Parse( Console.ReadLine());
+            //Console.WriteLine("Enter charachter");
+            //char  letter =char.Parse( Console.ReadLine());
 
-            //Console.Write("Enter the new character: ");
-            //char newChar = Console.ReadKey().KeyChar;
-
-            //string result = ChangeChar(input, position, newChar);
-
-            //if (result.StartsWith("Error"))
-            //{
-            //    Console.WriteLine(result);
-            //}
-            //else
-            //{
-            //    Console.WriteLine($"Modified string: {result}");
-            //}
+            //string result=ChangeChar(text,index,letter);
+            //Console.WriteLine(result);
 
             #endregion
 
@@ -278,7 +272,7 @@ namespace Assignment6
             //Console.WriteLine("Enter a season (Spring, Summer, Autumn, Winter):");
             //string input = Console.ReadLine();
 
-            
+
             //if (Enum.TryParse(input, true, out Season season))
             //{
             //    switch (season)
@@ -302,7 +296,27 @@ namespace Assignment6
             //    Console.WriteLine("Invalid season. Please enter a valid season name (Spring, Summer, Autumn, Winter).");
             //}
 
+            ////prt 2 Q3
 
+            ////part 2 Q4
+            //Console.WriteLine("Enter a color (Red, Green, Blue):");
+            //string input = Console.ReadLine();
+
+            //if (Enum.TryParse(input, true, out Colors color))
+            //{
+            //    if (color == Colors.Red || color == Colors.Green || color == Colors.Blue)
+            //    {
+            //        Console.WriteLine($"{input} is a primary color.");
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine($"{input} is not a primary color.");
+            //    }
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Invalid color. Please enter a valid color name (Red, Green, Blue).");
+            //}
         }
 
     }
