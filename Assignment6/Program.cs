@@ -58,7 +58,7 @@ namespace Assignment6
 
             //if (digits < 0) { Console.WriteLine("Invalid input , Enter Positive Number"); }
             //else { IndividualDigits(digits); }
-            
+
             //static void IndividualDigits (int num) 
             //{
             //    int sum = 0;
@@ -69,6 +69,34 @@ namespace Assignment6
             //    }
             //    Console.WriteLine($"The sum of the digits of the number {num} is: {sum}");
             //}
+            #endregion
+
+            #region 3.reate a function named "IsPrime", which receives an integer number and retuns true if it is prime, or false if it is not:
+
+            //    Console.Write("Enter Number To Know If This Number Is Prime: ");
+            //    int.TryParse(Console.ReadLine(), out int Num);
+
+            //    if (Num < 0) { Console.WriteLine("Invalid input , Enter Positive Number"); }
+
+            //    else
+            //    { 
+            //       bool result = IsPrime(Num);
+            //       Console.WriteLine(result); 
+            //    }
+
+            //    static bool IsPrime(int PrimeNum)
+            //    {
+            //        for (int i = 2; i < PrimeNum; i++)
+            //        {
+            //            if (PrimeNum % i == 0)
+            //            {
+            //                return false;
+            //            }
+            //        }
+            //        return true;
+            //    }
+            //}
+
             #endregion
         }
     }
